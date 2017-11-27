@@ -3,7 +3,7 @@ import pytesseract
 from PIL import Image
 
 #打开图片
-im = Image.open('08.png')
+im = Image.open('10.png')
 #转为灰度图
 im = im.convert('L')
 #降噪 二值化
